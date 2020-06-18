@@ -1,3 +1,5 @@
+var userChoice = prompt("Please enter your choice", "pizza");
+
 switch (userChoice) {
     case 'pizza':
         console.log('$1.50');
