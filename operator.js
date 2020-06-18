@@ -12,6 +12,7 @@ console.log([one, two, three]);
 
 //with destructuring
 var[one, two, three] = foo;
+
 console.log(one);
 console.log(two);
 console.log(three);
