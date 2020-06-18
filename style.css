@@ -1,4 +1,24 @@
-.div {
+.contact {
     text-align: center;
-    border: 2px solid pink;
+    position: relative;  
+    height: 10em;
+    width: 50em;
+    border: 2px solid gray;
+}
+
+div.contact > label {
+    font-size: x-large;
+    color: rebeccapurple;
+}
+
+div.contact > input {
+    border: 2px solid palevioletred;
+    padding: 1em;
+    margin: 2em;
+}
+
+div.contact > button {
+    border-radius: 5px;
+    border: 2px solid black;
+    font-family: cursive;
 }
